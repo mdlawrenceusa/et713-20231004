@@ -1,0 +1,29 @@
+
+@charset "utf-8";
+/* CSS Document */
+nav ul {
+width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+background-color: black;
+height: 50px;
+}
+
+nav a:hover {
+  background-color: orange;
+height: 30px;
+}
+
+nav a {
+margin-left :60px;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  background-color: black;
+  font-weight: bold;
+  float: left;
+color: white;
+}
