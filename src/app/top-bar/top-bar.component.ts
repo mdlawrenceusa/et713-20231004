@@ -11,6 +11,7 @@ export class TopBarComponent {
 
   links = [
     { text: 'Anthony', url: '/anthony' },
+    { text: 'Videos', url: '/videos' },
     { text: 'Newest', url: '/newest' },
     { text: 'Catalog', url: '/catalog' },
     { text: 'Contact', url: '/contact' }
