@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { VideoComponent } from './video/video.component';
+import { AnthonyComponent } from './anthony/anthony.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,8 @@ import { VideoComponent } from './video/video.component';
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'videos', component: VideoComponent },
+      { path: 'anthony', component: AnthonyComponent },
+
 
     ])
   ],
@@ -22,7 +25,8 @@ import { VideoComponent } from './video/video.component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    VideoComponent
+    VideoComponent,
+    AnthonyComponent
   ],
   bootstrap: [
     AppComponent
